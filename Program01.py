@@ -54,10 +54,7 @@ pdf.cell(10,7, Resume [0] ['Position3'], ln=True,)
 pdf.set_font ('helvetica', 'B',  20)
 pdf.cell(195,10, 'Objective', ln=True, border=True)
 
-
-
 pdf.set_font ('helvetica', '',  14)
 pdf.cell(10,7, Resume [0] ['Objective'], ln=True,)
 pdf.cell(10,7, Resume [0] ['Objective2'], ln=True,)
 
-pdf.output ('resume.pdf')
