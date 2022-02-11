@@ -58,3 +58,4 @@ pdf.set_font ('helvetica', '',  14)
 pdf.cell(10,7, Resume [0] ['Objective'], ln=True,)
 pdf.cell(10,7, Resume [0] ['Objective2'], ln=True,)
 
+pdf.output ('resume.pdf')
